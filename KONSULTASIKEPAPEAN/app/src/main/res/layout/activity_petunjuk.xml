@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".petunjuk">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        tools:context=".petunjuk"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="PETUNJUK"
+            android:textColor="#7161ff"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:text="\n\n1. Klik Menu Konsultasi Untuk Melakukkan Konsultasi"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="2. Terdapat 2 Opsi : Perempuan dan Anak, Pilih Salah Satu Untuk Melakkukan Konsultasi"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:text="3. Pilih opsi-opsi yang telah tersedia pada layar"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:textStyle="bold"
+            android:text="4. Klik Tentang : Berisikan Info Tentang Aplikasi"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="312dp"
+            android:layout_height="114dp"
+            android:layout_margin="150dp"
+            android:src="@drawable/menu" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

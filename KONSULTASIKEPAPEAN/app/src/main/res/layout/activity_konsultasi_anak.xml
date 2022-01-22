@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        tools:context=".konsultasi_anak">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/anak" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Konsultasi Kekerasan Pada Anak \n Menggunakkan Metode Forward Chaining"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#333131"
+            android:textStyle="bold"
+            />
+
+        <CheckBox
+            android:id="@+id/cx_tidak_peduli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Tidak Peduli"/>
+        <CheckBox
+            android:id="@+id/rokok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Menyundut Rokok"/>
+        <CheckBox
+            android:id="@+id/cx_penghinaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Penghinaan"/>
+        <CheckBox
+            android:id="@+id/kesehatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Kesehatan Tidak Di Perhatikan"/>
+        <CheckBox
+            android:id="@+id/mencekik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Mencekik"/>
+        <CheckBox
+            android:id="@+id/cx_isolasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Mengisolasi"/>
+        <CheckBox
+            android:id="@+id/pelemparan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Pelemparan"/>
+        <CheckBox
+            android:id="@+id/pemukulan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Pemukulan"/>
+        <CheckBox
+            android:id="@+id/video_pornografi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Dipertontonkan Video Pornografi"/>
+        <CheckBox
+            android:id="@+id/cx_penolakan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Penolakan"/>
+        <CheckBox
+            android:id="@+id/cx_teror"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Teror"/>
+        <CheckBox
+            android:id="@+id/alat_kelamin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Perlihatkan Alat Kelamin"/>
+        <CheckBox
+            android:id="@+id/pemerkosaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Pemerkosaan"/>
+        <CheckBox
+            android:id="@+id/makanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Tidak Menyediakan Makanan"/>
+
+
+        <CheckBox
+            android:id="@+id/pakaian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickChecked"
+            android:text="Tidak Menyediakan Pakaian" />
+
+        <Button
+            android:id="@+id/btn_diagnosa"
+            android:layout_width="344dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:text="Cek Diagnosa"
+            app:backgroundTint="#6E40BF" />
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</ScrollView>
