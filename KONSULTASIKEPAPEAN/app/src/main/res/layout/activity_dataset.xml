@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        tools:context=".konsultasi_anak">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pengertian dan Pengetahuan\n(Kekerasan Pada Perempuan dan Anak)"
+            android:textAlignment="center"
+            android:textColor="#333131"
+            android:textSize="21dp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="165dp"
+            android:layout_gravity="center"
+            android:src="@drawable/datasetfinal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nAda 4 Jenis kekerasan pada perempuan dan anak  :\n1. Kekerasan Fisik\n2. Kekerasan Psikis\n3. Kekerasan Seksual\n4. Penelantaran\n\n"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anak :\n\nA. Kekerasan Fisik"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nMenyundut Rokok"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="16dp"
+            android:text="Menyundut Rokok adalah sebuah aktifitas yang dilakukan dengan cara mengarahkan puntung rokok yang sedang menyala ke arah anak dan menempelkan nya pada kulit anak yang dilakukkan dengan sengaja\n\n"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mencekik"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="16dp"
+            android:text="Ini merupakan tindakan kekerasan terhadap anak di mana pelaku mencengkram leher korban dan dapat mengambil resiko kematian"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nPelemparan"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic"
+            android:textSize="16dp"
+            android:text="Tindakan pelemparan juga bisa masuk dalam tindak kekerasan yang tidak pantas di lakukan untuk anak anak karna pelaku melempar korban dengan suatu benda yang dapat melukai korban"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nB. Kekerasan Psikis\n\n"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tidak Peduli"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contoh perilaku tidak peduli antara lain adalah tidak mau berbicara kepada anak pada waktu tertentu saja, melalaikan kebutuhan anak, tidak mengurus anak, tidak melindungi anak, dan kurangnya interaksi kepada anak."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nPenghinaan"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contoh tindakan penghinaan ini adalah menghina anak, mengejek anak, menyapa anak dengan nama-nama yang tidak pantas, membuat mereka merasa kekanak-kanakan, memandang rendah identitas anak, derjat dan harga diri anak, merendahkan anak di depan orang lain dan lain-lain."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nMeneror"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bentuk tindakan dari kekerasan psikis jenis teror ini adalah segala bentuk yang dapat menimbulkan keadaan yang menakutkan bagi anak, menyebabkan rasa gelisah dan lain-lain."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nMengisolasi"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bentuk perilaku dari mengisolasi dapat berupa memisahkan anak dari teman-temannya, menghalangi anak bersosialisasi dengan orang lain, menyekap anak sendiri dan lain-lain."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nPenolakan"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contoh dari perilaku penolakan adalah menolak atau mengabaikan kehadiran anak, tidak menghormati pendapat anak dan kinerja anak, membeda-bedakan anak."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nC. Kekerasan Seksual\n\n"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dipertontonkan Video Pornografi"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="adalah tindakan yang tentu saja bisa merusak otak apalagi untuk anak di bawah umur dan juga bisa merusak tatanan norma” dalam masyarakat merusak pola pikir manusia hingga mengakibatkan kecanduan"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nDiPerlihatkan Alat Kelamin"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ini merupakan sebuah tindakan yang cabut yang dapat merusak otak anak yang belum mengerti tentang larangan melihat hal-hal tersebut, yang akan mempengaruhi pemikiran anak dan menganggap hal tersebut sepele"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nPemerkosaan"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="adalah jenis serangan seksual yang biasanya melibatkan hubungan seksual atau bentuk penetrasi seksual lainnya yang dilakukan terhadap seseorang tanpa persetujuan orang tersebut. Perbuatan tersebut dapat dilakukan dengan kekerasan fisik, pemaksaan, penyalahgunaan wewenang, atau terhadap orang yang tidak mampu memberikan persetujuan yang sah, seperti orang yang tidak sadarkan diri, lumpuh, cacat intelektual, atau di bawah umur yang sah untuk menyetujui."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nD. Penelantaran\n\n"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kesehatan Tidak di perhatikan"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ini merupakan tindakan di mana, orang tua membiarkan dan tidak memperdulikan kebutuhan yg di butuhkan oleh anak tidak acuh dengan kondisi kesehatan sehingga anak berlarut dalam kondisi yg tidak sehat tanpa perhatian kasih sayang dari orang tua"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nTidak menyediakan Makanan"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ini merupakan tindakan di mana, orang tua tidak menyediakan kebutuhan makan atau minum pada anak yang akan membuat anak jatuh sakit"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nTidak menyediakan pakaian"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ini merupakan tindankan di mana, orang tua tidak menyediakan pakaian yang layak untuk anak, sehingga anak memakai pakaian yang sama,robek,rusak setiap harinya."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nPerempuan :\n\nA. Kekerasan Fisik\n\n"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mencengkram dengan keras"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tindakan ini merupakan tindakan yang dilakukan dengan cara memegang atau meremas bagian tubuh korban dengan keras dan kuat yang dapat menyebabkan luka pada korban"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nMencekik"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ini merupakan tindakan kekerasan terhadap perempuan di mana pelaku mencengkram leher korban dan dapat mengambil resiko kematian"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nMenendang"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ini merupakan tindakan kekerasan terhadap perempuan yang dapat menyebabkan luka tergantung power dari terdangan tersebut dan juga dapat mengambil resiko kematian"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nMendorong"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ini adalah tindakan di mana korban di dorong dan juga kontak fisik yg tidak seharusnya dilakukan pada perempuan"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nB. Kekerasan Psikis\n\n"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mengisolasi"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bentuk perilaku dari mengisolasi dapat berupa memisahkan perempuan dari teman-temannya, menghalangi perempuan bersosialisasi dengan orang lain, menyekap istri sendiri dan lain-lain."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nMengancam"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bentuk perilaku mengancam ini dapat berupa menakut-nakuti akan di sakiti,akan di buat susah, bahkan akan di bunuh oleh pelaku"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nMenghina"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Merupakan perbuatan tak terpuji yang menyerang nama baik atau kehormatan seseorang, dengan cara merendahkan, mengungkapkan aib atau memberikan suatu sebutan yang tak pantas terhadap seseorang dimuka umum dengan tujuan agar hal tersebut diketahui oleh orang banyak dan agar orang tersebut merasa malu."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nMemanggil dengan sebutan yang mempermalukan"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bentuk perilaku ini dapat berupa memanggil perempuan dengan sebutan anjing, babi, cacat dan lain-lain"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nMenjelek-jelekan"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bentuk perilaku yaitu berkali-kali menyebut berbagai kejelekan tentang korban dari pelaku"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nC. Kekerasan Seksual\n\n"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Memaksa Melakukan Hubungan Seksual Dibawah Ancaman"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bentuk tindakan ini berupa memaksa korban untuk melakukan hubungan seksual dengan ancaman-ancaman untuk memojokkan korban"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nMeraba"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bentuk tindakan ini yaitu berupa menyentuh (memegang, menjamah) dengan telapak tangan karena ingin merasai atau mencari sesuatu, dalam kasus pelecehan seksual yaitu bagian-bagian yang seharusnya tidak boleh di raba"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nMencium"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bentuk tindakan ini adalah sentuhan atau penekanan bibir pelaku terhadap orang lain atau suatu objek dalam kasus ini yang di maksud adalah perempuan dengan tidak adanya persetujuan dari pihak Perempuan. "
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nD. Penelantaran\n\n"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Penelantaran Perempuan"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dalam hukum positif, penelantaran dalam rumah tangga dapat digolongkan sebagai tindakan kekerasan dalam rumah tangga (domestic violence) dan merupakan strafbaar feit dengan pengertian perbuatan yang dilarang oleh peraturan hukum pidana dan tentu saja dikenakan sanksi, Penelantaran dalam rumah tangga biasanya dilakukan oleh suami yang meninggalkan anak dan isterinya tampa memberikan nafkah kehidupan bagi seluruh keluarga yang menjadi tanggungannya."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nTerdapat dalam aplikasi dengan pilihan :\n"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Tidak Membiayai Kebutuhan Dasar\n- Meninggalkan\n- Pergi Berhari-hari Tanpa Kabar\n\n\n\n\n"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+    </LinearLayout>
+</ScrollView>
