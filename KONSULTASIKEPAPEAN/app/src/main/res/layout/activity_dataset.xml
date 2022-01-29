@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp"
+        tools:context=".konsultasi_anak">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pengertian dan Pengetahuan\n(Kekerasan Pada Perempuan dan Anak)"
+            android:textAlignment="center"
+            android:textColor="#333131"
+            android:textSize="21dp"
+            android:textStyle="bold"/>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="165dp"
+            android:layout_gravity="center"
+            android:src="@drawable/datasetfinal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nAda 4 Jenis kekerasan pada perempuan dan anak  :\n1. Kekerasan Fisik\n2. Kekerasan Psikis\n3. Kekerasan Seksual\n4. Penelantaran\n\n"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anak :\n\nA. Kekerasan Fisik"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kekerasan fisik adalah perbuatan yang mengakibatkan rasa sakit, jatuh sakit, atau luka berat. Jadi, kekerasan fisik ini dilihat dalam kaitannya dengan akibat dari kekerasan, yaitu mengakibatkan rasa sakit, jatuh sakit, atau luka berat.\n"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Penyebab terjadinya kekerasan fisik"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Harapan yang tidak sesuai dengan kenyataan\n- Trauma yang dialami orangtua semasa kecil\n- Orangtua dengan masalah keuangan\n- Kurangnya dukungan yang tepat\n- Penyalahgunaan narkoba dan alkohol\n- Gangguan emosional\n- Situasi yang terjadi secara tiba-tiba\n"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pertanyaan"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apakah anda di cekik ?\nApakah anda terkena pelemparan ?\nApakah anda di pukul?\n"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Solusi"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Setelah megetahui alasan yang dapat membuat orangtua melakukan kekerasan terhadap anak, maka mulai sekarang coba hentikan sekecil apapun hal yang dapat membuat anak merasa takut dan trauma.\n"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nB. Kekerasan Psikis"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kekerasan psikis merupakan suatu tindakan “penyiksaan kepada jiwa” yang berpengaruh besar pada berbagai aspek perkembangan manusia, terutama bagi perkembangan sosial dan emosional. Kekerasan psikis meliputi perilaku-perilaku non-fisik namun sangat berakibat fatal, terutama bagi perkembangan psikis anak usia dini yang notabene masih dalam proses “pembangunan”."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nPenyebab terjadinya kekerasan psikis"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Faktor Ekonomi (Kemiskinan)\n- Faktor Keluarga\n"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pertanyaan"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Apakah Anak tidak di pedulikan ?\n- Apakah Anak mendapat penghinaan ?\n- Apakah Anak mendapat teror dari pelaku ?\n- Apakah Anak mendapat perilaku mengisolasi dari pelaku ?\n- Apakah Anak mendapat penolakan dari pelaku ?\n"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Solusi"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ada beberapa solusi dalam menghadapi kekerasan psikis yaitu : Meyakinkan korban, Memberikan pendidikan budi pekerti, Pendidikan dan perilaku dari keluarga, Jangan memperlihatkan kekerasan, Kontrol sosial yang baik, Melakukan pengawasan saat anak menontin televisi, Mengajarkan nilai-nilai kemanusiaan dan Lingkungan rumah.\n"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nC. Kekerasan Seksual"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kekerasan sexsual ini merupakan pemaksaan  terhadap korban untuk melakukan hubungan sex dengan adanya ancaman dan juga pemaksaan"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nPenyebab"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pelecehan seksual biasanya terjadi karena adanya keinginan dari pelaku dan adanya kesempatan untuk melakukan pelecehan serta adanya stimulus dari korban yang memancing terdorongnya perilaku melecehkan (Anonim, 2002). Pelecehan seksual terjadi ketika pelaku mempunyai kekuasaan yang lebih dari pada korban."
+            android:textSize="16dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nPertanyaan"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Apakah anda terkena pemerkosaan dari pelaku?\n- Apakah anda di perlihatkan alat kelamin dari pelaku?\n- Apakah anda dipertontonkan video porngrafi"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nSolusi"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ada beberapa solusi dalam menghadapi kekerasan seksual yaitu : Menghubungi Pihak Berwajib, Anak harus selalu dalam pantauan orang tua, Hindari Anak Bepergian dengan Orang yang Baru Dikenal"
+            android:textSize="16dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nD. Penelantaran\n\n"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Penelantaran anak adalah praktik melepaskan tanggung jawab dan klaim atas keturunan dengan cara illegal (John Boswell. 1998). Saat ini banyak kasus yang memberitakan tentang kekerasan pada anak, termasuk penelantaran pada anak oleh keluarganya sendiri."
+            android:textSize="16dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nPenyebab"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Faktor dari anak: Keterlambatan perkembangan. Faktor lingkungan: Kemiskinan, kurangnya dukungan sosial, atau kesulitan lingkungan. Faktor keluarga: Rumah tangga dengan orang tua tunggal, kekerasan dalam rumah tangga, atau tekanan keluarga."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nSolusi"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bisa dibuat sebuah sosialisasi mengenai upaya pencegahan kekerasan dan perlindungan anak. Jangan sampai karena terlambat ada tindakan akhirnya anak yang menjadi korbannya."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\n\nPerempuan :\n\nA. Kekerasan Fisik\n"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kekerasan fisik adalah perbuatan yang mengakibatkan rasa sakit, jatuh sakit, atau luka berat. Jadi, kekerasan fisik ini dilihat dalam kaitannya dengan akibat dari kekerasan, yaitu mengakibatkan rasa sakit, jatuh sakit, atau luka berat."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nPenyebab"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kejahatan pada perempuan dalam rumah tangga dapat disebabkan oleh beragam faktor. Ada beberapa faktor yang dapat mendasari pelaku memiliki kecenderungan melakukan kekerasan: mengalami trauma masa kecil, memegang sistem kepercayaan tertentu tentang hierarki dan dominasi, menyaksikan kekerasan dalam rumah tangga sebagai seorang anak."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nPertanyaan"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Apakah anda di cengkram dengan keras oleh pelaku ?\n- Apakah anda di cekik ?\n- Apakah anda pelaku menendang anda ?\n- Apakah pelaku mendorong anda ?"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nSolusi"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Agar kasus kekerasan tak terus menghantui perempuan, ada beberapa kiat yang bisa dilakukan : Pahami bentuk kekerasan, Pahami hubungan yang sehat, Waspada pada perubahan, Hindari lokasi bahaya, Pribadi yang kuat"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nB. Kekerasan Psikis\n"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kekerasan psikis merupakan suatu tindakan “penyiksaan kepada jiwa” yang berpengaruh besar pada berbagai aspek perkembangan manusia, terutama bagi perkembangan sosial dan emosional. Kekerasan psikis meliputi perilaku-perilaku non-fisik namun sangat berakibat fatal, terutama bagi perkembangan psikis anak usia dini yang notabene masih dalam proses “pembangunan”."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nPenyebab"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Faktor Ekonomi (Kemiskinan)\n- Faktor Keluarga"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nPertanyaan"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Apakah pelaku mengisolasi anda ?\n- Apakah pelaku mengancam anda ?\n- Apakah pelaku mengancam anda ?\n- Apakah pelaku menghina anda ?\n- Apakah pelaku memanggil anda dengan sebutan yang mempermalukan ?\n- Apakah pelaku menjelek-jelekan anda ?"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nSolusi"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ada beberapa solusi dalam menghadapi kekerasan psikis yaitu : Meyakinkan korban, Pendidikan dan perilaku, Kontrol sosial yang baik, dan Lingkungan rumah."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nC. Kekerasan Seksual"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kekerasan sexsual ini merupakan pemaksaan  terhadap korban untuk melakukan hubungan sex dengan adanya ancaman dan juga pemaksaan"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nPenyebab"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Faktor dominan terjadinya kekerasan seksual pada perempuan yaitu budaya patriarki, hak-hak istimewa laki-laki, dan sikap permisif. Penyebab utama alasan perempuan korban kekerasan seksual tidak melapor yaitu stigma buruk masyarakat akan korban kekerasan seksual."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nPertanyaan"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\- Apakah pelaku memaksa melakukan hubungan seksual dibawah ancaman ?\n- Apakah pelaku meraba bagian tubuh anda yang terlarang /\n- Apakah Pelaku mencium anda tanpa persetujuan dari anda ?"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nSolusi"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ada beberapa solusi dalam menghadapi kekerasan seksual yaitu : Menghubungi Pihak Berwajib, Berani Bersikap Tegas, Dapatkan Dukungan dari Keluarga dan Teman Terdekat, Hindari Bepergian dengan Orang yang Baru Dikenal, Membekali Diri dengan Pendidikan Seksual"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nD. Penelantaran"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Penelantaran adalah setiap bentuk pelalaian kewajiban dan tanggung jawab seseorang dalam rumah tangga yang menurut hukum seseorang itu telah ditetapkan sebagai pemegang tanggung jawab terhadap kehidupan orang yang berada dalam lingkungan keluarganya."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nPenyebab"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Penyebab penelantaran perempuan kerap terjadi karena : Perselisihan, Suami kurang bersyukur, Ketidakpuasan dalam hal berhubungan seksual, Kurangnya keterbukaan"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nPertanyaan"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Apakah pelaku tidak membiayai kebutuhan dasar anda ?\n- Apakah pelaku meninggalkan ?\n- Apakah pelaku pergi berhari-hari tanpa adanya kabar ?"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nSolusi"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Secara hukum ada dua hal yang bisa dilakukan. Pertama, secara perdata yaitu mengajukan gugatan nafkah terhadap suami Anda. Kedua, secara pidana yaitu melaporkan suami anda ke polisi karena telah melakukan penelantaran terhadap keluarga.\n1. Gugatan Nafkah\n2. Penelantaran Keluarga"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            />
+    </LinearLayout>
+</ScrollView>
